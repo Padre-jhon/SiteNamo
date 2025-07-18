@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário, Maria Eduarda!</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Pacifico&display=swap" rel="stylesheet">
+    <style>
+        /* Reset básico */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        /* Estilos Gerais */
+        body {
+            background: linear-gradient(135deg, #f9e2e2, #ffbbcc);
+            color: #333;
+            text-align: center;
+            line-height: 1.6;
+            font-size: 1.1rem;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        header {
+            background-color: #ff6492;
+            padding: 5rem 2rem;
+            color: white;
+            border-bottom: 3px solid #fff;
+        }
+
+        header h1 {
+            font-size: 4.5rem;
+            font-family: 'Pacifico', cursive;
+            margin-bottom: 1rem;
+        }
+
+        header p {
+            font-size: 1.6rem;
+            font-family: 'Dancing Script', cursive;
+            margin-bottom: 2rem;
+        }
+
+        /* Coração de fundo */
+        .heart-container {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+
+        .heart {
+            width: 70px;
+            height: 70px;
+            background-color: #ff4961;
+            clip-path: polygon(50% 0%, 100% 35%, 80% 100%, 50% 80%, 20% 100%, 0% 35%);
+            animation: pulse 1.5s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.2);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+        /* Mensagens */
+        .main-content {
+            padding: 4rem 2rem;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        h2 {
+            font-family: 'Pacifico', cursive;
+            font-size: 3.5rem;
+            color: #ff6492;
+            margin-bottom: 2rem;
+        }
+
+        .message p,
+        .plan-casamento p,
+        .mais-mensagens p {
+            font-size: 1.5rem;
+            color: #555;
+            margin-bottom: 1.5rem;
+            text-align: justify;
+        }
+
+        .plan-casamento, .mais-mensagens {
+            background-color: #f9f4f9;
+            padding: 2rem;
+            border-radius: 15px;
+            margin-bottom: 2.5rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .celebrate-button {
+            background-color: #ff6492;
+            color: white;
+            font-size: 1.6rem;
+            padding: 1rem 2rem;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-top: 2rem;
+            transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+        }
+
+        .celebrate-button:hover {
+            background-color: #ff4961;
+            transform: scale(1.1); /* Aumenta o tamanho do botão */
+        }
+
+        footer {
+            background-color: #ff6492;
+            color: white;
+            padding: 1.5rem;
+            font-size: 1.4rem;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Feliz Aniversário, Amor da minha vida!</h1>
+        <p>Hoje é o seu dia, e eu estou aqui para celebrar tudo o que você é para mim!</p>
+    </header>
+
+    <div class="main-content">
+        <div class="heart-container">
+            <div class="heart"></div>
+            <div class="heart"></div>
+            <div class="heart"></div>
+        </div>
+
+        <section class="message">
+            <h2>Minha Querida Maria Eduarda</h2>
+            <p>Hoje celebramos não apenas o seu aniversário, mas também o amor, a amizade e tudo o que compartilhamos. Sou grato por cada momento ao seu lado. Você ilumina minha vida de uma maneira única, e eu te amo mais do que palavras podem expressar.</p>
+            <p>Desejo a você um dia tão radiante quanto o seu sorriso, e que este novo ciclo seja cheio de realizações, amor e felicidade.</p>
+            <p>Parabéns, minha linda, meu maior tesouro!</p>
+        </section>
+
+        <section class="plan-casamento">
+            <h2>Nosso Plano de Casamento</h2>
+            <p>A cada dia que passa, tenho mais certeza de que você é a pessoa com quem quero passar o resto da minha vida. Cada momento ao seu lado é um capítulo lindo da nossa história de amor.</p>
+            <p>Vamos juntos construir um futuro cheio de sonhos realizados. Amo você mais a cada dia, e estou muito ansioso para tudo o que vem pela frente!</p>
+        </section>
+
+        <section class="mais-mensagens">
+            <h2>Mais Mensagens de Amor</h2>
+            <p>Você é a razão do meu sorriso, minha fonte de alegria e meu maior amor. Estou tão feliz por compartilhar minha vida com você, e prometo te fazer feliz todos os dias, sempre!</p>
+            <p>Meu amor por você é imensurável, e é com você que quero estar para sempre.</p>
+        </section>
+
+        <!-- Botão que leva à cerimônia -->
+        <a href="cerimonia.html">
+            <button class="celebrate-button">Comemorar!</button>
+        </a>
+        
+    </div>
+
+    <footer>
+        <p>Com amor, seu eterno apaixonado</p>
+    </footer>
+</body>
+</html>
